@@ -1,0 +1,21 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mybox{
+    width: 325px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(223, 219, 219);
+    display: block;
+    background-color: rgb(254, 251, 255);
+}
+
+.mybox:hover{
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+}
